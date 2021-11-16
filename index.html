@@ -1,0 +1,39 @@
+<html>
+    <head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <h1>Simple Interest Calculator</h1>
+
+            <form action="">
+                <p>
+                    <label class="label1" for="">Amount</label>
+                    <input type="tel"  id="principal">
+                </p>
+
+                <p>
+                    <label class="label2" for="">Rate</label> 
+                    <input type="range"  min='0' max='100' value="0" oninput="range_.value=value" id="rate">
+                    <output id="range_">0</output> <span>%</span>
+                </p>
+
+                <p>
+                    <label for="">No. of Years</label>
+                    <input type="number"  id="years">
+                </p>
+
+                <button onclick="getDataAndVerifie()">Compute Interest</button>
+            </form>
+
+            <div id="interest" onclick="guy()"> je suis la</div>
+                
+            <footer>
+                <p>&copy; Everyone Can Get Rich</p>
+            </footer>
+        </main>
+
+        
+    </body>
+</html>

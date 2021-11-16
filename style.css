@@ -1,0 +1,55 @@
+body {
+    background-color:tan;
+}
+
+h1{
+    color:green;
+}
+
+
+main {
+    width: 70%;
+    background: rgb(255, 255, 255);
+    padding: 25px 20px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    margin: 150px  auto;
+}
+
+main h1 {
+    color: rgb(102, 107, 110);
+    text-align: center;
+}
+
+main form p label{
+    padding-left: 50px;
+    padding-right: 30px;
+}
+
+main form p .label1{
+    padding-right: 58px;
+}
+
+main form p .label2{
+    padding-right: 80px;
+}
+
+main form p input[type=number]{
+    width: 50px;
+}
+
+
+main form p output {
+    padding-left: 20px;
+    font-weight: 500;
+}
+
+main form button {
+    margin-left: 50px;
+}
+main .interest{
+    padding-left: 50px;
+}
